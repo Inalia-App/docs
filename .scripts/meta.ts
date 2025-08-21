@@ -7,6 +7,7 @@ import { createChecker } from 'vue-component-meta'
 interface MetaProp {
   name: string,
   type: string,
+  required: boolean,
   description: string,
   default?: string,
 }
@@ -46,6 +47,7 @@ function main() {
       .map((prop) => ({
         name: escapeDoubleQuotes(prop.name),
         default: prop.default ? escapeDoubleQuotes(prop.default) : undefined,
+        required: prop.required,
         type: escapeDoubleQuotes(prop.type),
         description: escapeDoubleQuotes(prop.description),
       } satisfies MetaProp))
@@ -56,7 +58,7 @@ function main() {
     content += '<PropsTable\n'
     content += '  :data="[\n'
     props.forEach((prop) => {
-      content += `    { name: '${prop.name}', type: '${prop.type}', description: '${prop.description}', default: '${prop.default}' },\n`
+      content += `    { name: '${prop.name}', type: '${prop.type}', description: '${prop.description}', default: '${prop.default}', required: ${prop.required} },\n`
     })
     content += '  ]"\n'
     content += '/>'
