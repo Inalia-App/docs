@@ -1,0 +1,15 @@
+figure {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.375rem;
+  background-color: var(--vp-c-default-soft);
+}
+
+figure img {
+  border-radius: 0.375rem;
+}
+
+figure figcaption {
+  color: var(--vp-c-text-1);
+  text-align: center;
+  font-size: 14px;
+}
