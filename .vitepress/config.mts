@@ -12,6 +12,10 @@ export default defineConfig({
       { text: 'Getting Started', link: '/getting-started' },
     ],
 
+    search: {
+      provider: 'local'
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/inalia-app' }
     ]
