@@ -30,3 +30,6 @@ When the talk is over and you want to build and deploy the presentation, replace
 ```
 
 With static mode, we can generate and deploy slides without needing access to Inalia or an access token at runtime.
+
+> [!INFO]
+> You can find an example on the [Examples Repository](https://github.com/inalia-app/examples/tree/main/examples).
