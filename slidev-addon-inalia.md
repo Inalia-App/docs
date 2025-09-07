@@ -1,4 +1,3 @@
-
 # slidev-addon-inalia
 
 The [slidev-addon-inalia](https://github.com/Inalia-App/slidev-addon-inalia) is a [Slidev addon](https://sli.dev/guide/theme-addon#use-addon) and an essential part of Inalia, enabling real-time communication between our slides and the Inalia web application.
