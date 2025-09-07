@@ -10,6 +10,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Getting Started', link: '/getting-started' },
+      { text: 'Examples', link: 'https://github.com/inalia-app/examples' },
     ],
 
     search: {
