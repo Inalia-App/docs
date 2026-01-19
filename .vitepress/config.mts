@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Inalia",
-  description: "Make your talks more engaging with real-time interactions.",
+  title: 'Inalia',
+  description: 'Make your talks more engaging with real-time interactions.',
   head: [
-    ['script', { defer: '', 'data-domain': 'docs.inalia.app', src: 'https://plausible.soubiran.dev/js/script.outbound-links.js' }],
-    ['script', {}, 'window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }']
+    ['script', { 'defer': '', 'data-domain': 'docs.inalia.app', 'src': 'https://plausible.soubiran.dev/js/script.outbound-links.js' }],
+    ['script', {}, 'window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }'],
   ],
   themeConfig: {
     nav: [
@@ -14,11 +14,11 @@ export default defineConfig({
     ],
 
     search: {
-      provider: 'local'
+      provider: 'local',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/inalia-app' }
-    ]
-  }
+      { icon: 'github', link: 'https://github.com/inalia-app' },
+    ],
+  },
 })
