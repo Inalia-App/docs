@@ -1,6 +1,6 @@
 ---
-mode: agent
-model: GPT-5 mini (Preview)
+agent: agent
+model: GPT-5 mini
 description: Improve documentation text by fixing grammar, punctuation, and style issues.
 ---
 
