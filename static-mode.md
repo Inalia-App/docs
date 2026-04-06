@@ -1,3 +1,7 @@
+---
+description: Export presentation data into your slides so you can publish them without a live Inalia connection.
+---
+
 # Static mode
 
 After finishing a talk, we typically want to make the presentation available to the audience using [Slidev build mode](https://sli.dev/guide/hosting#building-and-hosting).
